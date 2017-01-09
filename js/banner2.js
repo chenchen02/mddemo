@@ -24,7 +24,7 @@ function stop2(){
 }
 
 function showimageb(){
-    for(var a=1;a<4;a++){
+    for(var a=1;a<3;a++){
         var imgesb=document.getElementById("tub"+a);
         var numbeb=document.getElementById("numb"+a);
         if(indexb==a){
