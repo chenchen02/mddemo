@@ -2,6 +2,7 @@
 
 ul,li{list-style:none;}
 a{ text-decoration: none;}
+a,p{cursor:pointer;}
 .top-head {
     width: 100%;
     height: auto;
