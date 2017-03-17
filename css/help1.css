@@ -9,6 +9,8 @@ a,p{cursor:pointer;}
     position: relative;
 }
 
+.border0{border: 0 !important;}
+
 .min {
     width: 1000px;
     height: 90px;
@@ -95,7 +97,7 @@ font-weight: 600;
 }
 .helpright {
     width: 750px;
-    height: auto;
+    height: 100%;
     position: relative;
     background: white;
     float: right;
@@ -107,7 +109,7 @@ font-weight: 600;
     color: #7f7f7f;
     font-size: 18px;
 }
-
+.helpright a:hover{color:red; font-weight: 600;}
 .helpright p {
     color: #7f7f7f;
 
