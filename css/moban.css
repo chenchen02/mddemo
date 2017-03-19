@@ -1,0 +1,195 @@
+*{margin:0;padding:0;}
+
+ul,li{list-style:none;}
+a{ text-decoration: none;}
+a,p{cursor:pointer;}
+body {
+    font: 12px/1.5 "Microsoft YaHei";
+    overflow-x: hidden;
+}
+.top-head {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid red;
+}
+
+.border0{border: 0 !important;}
+
+.min {
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min img{ float:left;}
+
+.headul {
+    float: right;
+    height: 90px;
+    text-align: center;
+}
+
+.headul li {
+    float: left;
+    width: 80px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.headul li a {
+    color: #000;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 600;
+}
+
+.delnglu {
+    background: red;
+    padding: 5px 9px 5px;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.help {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #f7f7f7;
+    display: inline-block;
+}
+.helpmain {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+.helpleft {
+    width: 200px;
+    height: 450px;
+    position: relative;
+    border-top: 3px solid red;
+    background: white;
+    float: left;
+    margin-top: 30px;
+}
+.helpleft h2 {
+    text-align: center;
+    line-height: 34px;
+}
+
+.helpleft ul {
+    text-align: center;
+}
+
+.helpleft li {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.helpleft a {
+    color: #5D5858;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+}
+.helpleft img {
+    position: absolute;
+    top: 31%;
+    left: 79%;
+}
+.helpright {
+    width: 750px;
+    height: 100%;
+    position: relative;
+    background: white;
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.helpright a {
+    color: #7f7f7f;
+    font-size: 18px;
+}
+.helpright a:hover{color:red; font-weight: 600;}
+.helpright p {
+    color: #7f7f7f;
+
+}
+
+
+
+
+.foot {
+    width: 100%;
+    position: relative;
+    height: 270px;
+    background: #666;
+}
+
+.footmin {
+    width: 1000px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+}
+.footmin img {
+
+    margin-top: 80px;
+    float: left;
+}
+.footright {
+    float: right;
+    width: 700px;
+    margin-top: 20px;
+}
+.footright ul {
+    float: left;
+    margin-top: 20px;
+}
+.footright ul li {
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.foot p {
+    color: #cecece;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.footright a {
+    color: #cecece;
+    font-size: 14px;
+}
+.footright h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.banq {
+    float: right;
+}
+
+.footright h2 img {
+    margin: 0;
+    width: 40px;
+
+}
+.footright h2 {
+    color: white;
+}
+
+ul.footer-link {
+    margin-left: 5em;;
+    float: left;
+}
+
+ul.footer-link li {
+    /* border: none; */
+    margin-left: 2px;
+    color: white;
+}
