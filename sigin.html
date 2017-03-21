@@ -33,16 +33,16 @@
 <br>
 <div class="phonegroup">
 
-<select>
+    <select ng-model="name" >
 <option>请选择</option>
-<option selected = "selected">中国</option>
-<option value="ww001">安提瓜和巴布达</option>
-<option value="ww002">安圭拉岛</option>
-<option value="ww002">埃及</option>
+<option selected = "selected" value="+86">中国</option>
+<option value="+1268">安提瓜和巴布达</option>
+<option value="+1264">安圭拉岛</option>
+<option value="+20">埃及</option>
 </select>
 <span>
 <div class="phonebelong">
-<input readonly="readonly" type="text" value=""></input>
+<input readonly="readonly" type="text" value="{{name}}"></input>
 </div>
 </span>
 
@@ -77,7 +77,7 @@
     </div>
 </div>
 
-
+<script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
 
 </body>
 </html>
