@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
     <script type="text/javascript"  src="js/jquery.js" ></script>
     <script type="text/javascript"  src="js/logo1.js" ></script>
+    <script type="text/javascript"  src="js/denglyz.js" ></script>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -50,16 +51,16 @@
 
 
 
-        <input class="input1" id="input1" type="text" name="firstname" maxlength="11" onblur="input()">
+        <input class="input1" id="input1" placeholder="请输入您的账户" type="text" name="firstname" maxlength="11" onblur="input()">
         <p style="color: red;" id="yan1" class="yan1">必须填写</p>
         <br>
         密码：<br>
-        <input class="input2" onblur="test()" id="input2" type="text" name="lastname" > <br>
+        <input class="input2" onblur="test()" id="input2" placeholder="请输入您的账户密码" type="password" name="lastname" > <br>
         <p style="color: red;" id="yan2"  class="yan2">必须填写</p><br>
 <div class="textright"><a href="login.html">验证码登陆</a></div>
 
         <input type="checkbox">记住我的帐号<br>
-        <input class="input3" type="submit" value="登录">
+        <input class="input3" type="submit" onclick="aa()" value="登录">
     </form>
 
 </div>
