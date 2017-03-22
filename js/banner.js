@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created by lenovo on 2016/12/15.
  */
 var time=null;
