@@ -9,9 +9,9 @@
                 dataType:"json",
                 success:function(data){
                     $.each(data,function(infoIndex,info) {
-                        if ($(".input1").val() == info["username"]) {
+                        if ($(".input1").val() == info["username"] && $(".input2").val() == info["password"] ) {
 
-                            window.location.href = "http://www.baidu.com";
+                            window.location.href = "index.html";
 
                         }
                         else {
